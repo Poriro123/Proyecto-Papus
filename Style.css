@@ -17,7 +17,14 @@ body {
     height: 100px;
     width: 80px;
 }
-
+.indice{
+  margin-top: 20px;
+  background-image:url(img/Minecraft\ spruce\ wood\ wallpaper.jfif);
+  color: #8d8989;              
+  padding: 20px;            
+  border-radius: 5px;
+  font-size: x-large;
+}
 .introduccion {
   margin-top: 20px;
   background-image:url(img/Cesped.jfif);
