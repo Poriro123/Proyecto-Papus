@@ -1,3 +1,4 @@
+@import url();
 body {
     background-color: aqua;
 }
@@ -15,4 +16,8 @@ body {
 .size {
     height: 100px;
     width: 80px;
+}
+
+#introduccion {
+    font-size: larger;
 }
