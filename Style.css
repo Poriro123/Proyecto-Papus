@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+.titulo {
+    margin-left: 30%;
+    height: 100px;
+    width: 650px;
+    background-color: red;
+}
+
+.M {
+    height: 100px;
+    width: 60px;
+    background-color: black;
+}
