@@ -1,6 +1,6 @@
-@import url();
 body {
-    background-color: aqua;
+    background-image: url(img/skeleton.webp);
+    background-size: cover;
 }
 
 .contain-titulo {
@@ -19,6 +19,7 @@ body {
 }
 
 .introduccion {
+  margin-top: 20px;
   background-image:url(img/Cesped.jfif);
   color: #fffdfd;              
   padding: 20px;            
