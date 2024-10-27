@@ -1,6 +1,7 @@
 @import url();
 body {
-    background-color: aqua;
+    background-image: url(img/skeleton.webp);
+    background-size: cover;
 }
 
 .contain-titulo {
@@ -13,32 +14,38 @@ body {
     justify-content: center;
 }
 
-.size {
-    height: 100px;
-    width: 80px;
-}
-
 #introduccion {
     font-size: larger;
 }
+
 section {
     margin-left: 300px;
     display: flex;
     width: 600px;
     height: 430px;
-  }
-  
-  section img {
+}
+
+section img {
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: 0.8;
     transition: 0.5s ease;
-  }
-  
-  section img:hover {
+}
+
+section img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
-  }
+}
+
+.intro {
+    height: 150px;
+    width: 100vh;
+    background-image: url('img/librohoja-removebg-preview (1).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+}
