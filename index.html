@@ -35,20 +35,31 @@
         <img src="img/images 2.jfif" alt="Minecaft5">
     </section>
     <div class="comentar">
+        <form action="index.html" method="post">
 
-    </div>
-    <div class="formulario">
+            <label for="Comentario" style="color: white;" id="comentar">Comentario</label><br>
+            <textarea name="Comentario" id="Comentario" cols="50" rows="10"></textarea>
 
-
-    </div>
-    <div class="form">
-        <form method="post" action="index.html" enctype="multipart/form-data">
-            <fieldset>
-                <label for="Comentario">Comentario</label><br>
-                <textarea name="Comentario" id="Comentario" cols="50" rows="10"></textarea>
-            </fieldset>
         </form>
     </div>
+
+
+
+    <div class="formulario">
+        <form method="post" action="index.html" enctype="multipart/form-data">
+
+            <h2 id="inic">Iniciar Sesión</h2>
+            <label for="usuario">Usuario</label><br>
+            <input type="text" name="nombreusuario" id="usuario" required><br>
+            <label for="contra">Contraseña</label><br>
+            <input type="password" name="contraseña" id="contra" required><br>
+
+            <button type="submit" id="env">Enviar</button>
+
+        </form>
+        <p id="reg">¿No tenés una cuenta todavia? <a href="#">Registrarse</a></p>
+    </div>
+
 </body>
 
 </html>
