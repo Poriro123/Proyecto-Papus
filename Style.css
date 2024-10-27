@@ -58,6 +58,8 @@ a {
   border-radius: 5px;
   font-size: x-large;
 }
+
+
 section {
     margin-left: 700px;
     display: flex;
@@ -79,3 +81,4 @@ section img:hover {
     opacity: 1;
     filter: contrast(120%);
 }
+
