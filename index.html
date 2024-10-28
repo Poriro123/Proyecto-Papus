@@ -18,13 +18,16 @@
         </div>
     </div>
     <main>
+
         <div class="indice">
             <h2>Indice</h2>
             <a href="#Introduccion">Introduccion</a>
-            <a href="#jugabilidad">jugabilidad</a>
+            <a href="#jugabilidad">Jugabilidad</a>
             <a href="#Slide">Imagenes</a>
             <a href="#Comentario">Comentario</a>
+            <a href="#form">Iniciar sesión</a>
         </div>
+
         <div class="introduccion" id="Introduccion">
             <h2>Introduccion</h2>
             <p>
@@ -33,8 +36,9 @@
                 fue publicada el 18 de noviembre de 2011.
             </p>
         </div>
+        <img src="img/skeleton.webp" alt="intro" id="intro">
         <div class="jugabilidad" id="jugabilidad">
-            <h2>jugabilidad</h2>
+            <h2>Jugabilidad</h2>
             <p>
                 Minecraft es un juego de mundo abierto que no tiene un fin exacto,se podria decir que su fin es cuando vas a una dimension llamada END para derrotar a la Ender Dragon, pero no termina ahi, el juego te da la libertad de explorar al maximo tu imaginacion
                 y hacer lo que quieras con el mundo en el que estas jugando
@@ -48,6 +52,32 @@
         </section>
 
     </main>
+    <div class="comentar">
+        <form action="index.html" method="post">
+
+            <label for="Comentario" style="color: white;" id="comentar">Comentario</label><br>
+            <textarea name="Comentario" id="Comentario" cols="50" rows="10"></textarea>
+
+        </form>
+
+    </div>
+
+
+
+    <div class="formulario" id="form">
+        <form method="post" action="index.html" enctype="multipart/form-data">
+
+            <h2 id="inic">Iniciar Sesión</h2>
+            <label for="usuario">Usuario</label><br>
+            <input type="text" name="nombreusuario" id="usuario" required><br>
+            <label for="contra">Contraseña</label><br>
+            <input type="password" name="contraseña" id="contra" required><br>
+
+            <button type="submit" id="env">Enviar</button>
+
+        </form>
+        <p id="reg">¿No tenés una cuenta todavia? <a href="#">Registrarse</a></p>
+    </div>
 </body>
 
 </html>
