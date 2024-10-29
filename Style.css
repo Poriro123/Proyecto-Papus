@@ -3,6 +3,19 @@ body {
     background-image: url(img/chad.jpg);
     background-size: contain;
     backdrop-filter: blur(7px);
+    cursor: url('img/Picomadera.png') 0 0, auto;
+}
+
+p {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "VT323", monospace;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .contain-titulo {
@@ -24,6 +37,7 @@ body {
 a {
     color: #faf7f7;
     text-decoration: none;
+    cursor: url('img/Picomadera.png') -40 10, auto;
 }
 
 .indice {
@@ -51,7 +65,7 @@ a {
 }
 
 #intro {
-    margin-left: 20%;
+    margin-left: 40%;
     margin-top: 10px;
     border-radius: 5px;
 }
@@ -59,8 +73,98 @@ a {
 .jugabilidad {
     margin-left: 300px;
     margin-top: 20px;
-    background-image: url(img/Cesped.jfif);
+    background-image: url(img/texturatierra.jpg);
     color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.alpha {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/piedaalpha.jpeg);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.beta {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/hierro.jpeg);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.aventura {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/piedratextura.jpg);
+    color: #5b4104;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.varias {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/redstone.jpeg);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.resto {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/madera.jpeg);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.compra {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/diamante.jpeg);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.normal {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/overworld.jpeg);
+    color: #e4e420;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.nether {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/netherrack.webp);
+    color: #fffdfd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.end {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-image: url(img/piedraend.jpeg);
+    color: #171515;
     padding: 20px;
     border-radius: 5px;
     font-size: x-large;
